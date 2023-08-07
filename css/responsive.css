@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+@media only screen and (max-width: 815px){
+    .navbar{
+        flex-direction: column;
+        height: 72px;
+        transition: all 0.7s ease-out;
+    }
+    .nav-left{
+        flex-direction: column;
+        width: 100%;
+    }
+    .nav-left li{
+        margin:  6px 0;
+    }
+    .nav-right {
+       flex-direction: column;
+       align-items: center;
+       margin: auto;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav{
+        height: 270px;
+    }
+    .v-class{
+        opacity: 0;
+    }
+    .first-section{
+        flex-direction: column-reverse;
+    }
+    .second-section{
+        flex-direction: column-reverse;
+    }
+    .third-section{
+        flex-direction: column-reverse;
+    }
+    .four-section input,textarea{
+        max-width: 250px;
+    }
+    .text-big{
+        text-align: center;
+    }
+    .text-sml{
+        text-align: center;
+    }
+    .btn-big{
+        margin: 0 auto;
+    }
+}
